@@ -1,0 +1,110 @@
+body{
+    background-color: #000000;;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    margin: 22px auto;
+}
+.score-bar{
+    height: 15px;
+    background-color: #835151;
+    width: 681px;
+}
+.score-bar-div{
+    background-color: red;
+    height: 100%;
+    width: 0%;
+    transition: all 0.3s ease-in-out;
+}
+.console{
+    display: flex;
+    justify-content: center;
+    margin: 12px 0px;
+}
+.screen{
+    padding: 34px;
+    height: 54px;
+    width: 378px;
+    background-color: rgb(0 0 0);
+    margin: 0 12px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #cefce8;
+    border: 2px solid white;
+}
+.btn{
+    background-color: #0d090b;
+    border: 2px solid white;
+    height: 64px;
+    width: 164px;
+    border-radius: 13px;
+    font-size: 31px;
+    color: #82e473;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover{
+  background-color: aqua;
+  border-radius: 17px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    background-color: rgb(15 12 8);
+    width: 56%;
+    height: auto;
+    margin: auto;
+    padding: 1px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.row{
+    height: 58px;
+    margin: 6px
+}
+.col{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 61px;
+    background-color: rgb(86 71 100);
+    margin: 0px 1px;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.input-box
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.input-box input
+{
+    width: 59%;
+    border: 2px solid #d3cdcd;
+    letter-spacing: 65px;
+    font-size: 35px;
+    padding: 0 20px;
+    overflow: hidden;
+    caret-color: #e8e5e5;
+    text-transform: uppercase;
+    color: white;
+    background-color: #010102;
+}
